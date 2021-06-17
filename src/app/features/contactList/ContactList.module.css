@@ -1,0 +1,33 @@
+.root {
+    /* background-color: #f5f7fb; */
+}
+
+.profilesBlock {
+    overflow: scroll !important;
+    flex-wrap: nowrap !important;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.profilesBlock::-webkit-scrollbar {
+    display: none;
+}
+
+.searchBlock {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+
+.searchInput {
+    background-color: #e6ebf5!important;
+    border: 0 !important;
+    outline: none !important;
+}
+
+span {
+    text-align: left;
+    margin-left: 1rem;
+    color: #495057;
+}

@@ -1,0 +1,22 @@
+.container {
+    background-color: #e6ebf5;
+    border-radius: 10px;
+    margin-top: -28px;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.profileCardContainer {
+    margin: 0rem -0.4rem 0rem 0rem !important;
+    max-width: fit-content !important;
+    padding: 0.3rem .2rem !important;
+}
+
+.userName {
+    font-size: 0.9em;
+    font-weight: 700;
+    font-family: monospace;
+}

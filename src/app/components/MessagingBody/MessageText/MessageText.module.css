@@ -1,0 +1,9 @@
+.root {
+    padding: .2rem;
+    text-align: left;
+    margin-bottom: -2rem;
+}
+
+.time {
+    text-align: end !important;
+}

@@ -1,0 +1,20 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.leftPane {
+    align-items: flex-start;
+    justify-content: center;
+    flex: .3;
+    border: 1px solid orange;
+}
+
+.rightPane {
+    align-items: flex-end;
+    justify-content: center;
+    flex: .7;
+    border: 1px solid blue;
+
+}

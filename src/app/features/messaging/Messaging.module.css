@@ -1,0 +1,16 @@
+.messagingBodyContainer {
+    height: calc(100vh - 166px);
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.messagingBodyContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.messagingFooterContainer {
+    padding: 1.5rem!important;
+}
