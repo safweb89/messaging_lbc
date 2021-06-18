@@ -5,12 +5,10 @@ import ContactList from 'app/features/contactList';
 import Messaging from 'app/features/messaging';
 import './App.css';
 
-import  {data} from './app/data';
-
 function App() {
   return (
     <div className="App">
-      <SplitPane left={<ContactList data={data} />} right={<Messaging />} />
+      <SplitPane left={<ContactList />} right={<Messaging />} />
       
     </div>
   );
